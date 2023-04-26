@@ -1,9 +1,12 @@
 import React from "react";
 import Card from "app/(shared)/Card";
+import { Post } from "@prisma/client";
 
-type Props = {};
+type Props = {
+  travelPosts: Array<Post>
+};
 
-const Travel = (props: Props) => {
+const Travel = ({travelPosts}: Props) => {
   return <section className="mt-10">
     <hr className="border-1" />
     <div className="flex items-center gap-3 my-8">
@@ -17,19 +20,23 @@ const Travel = (props: Props) => {
       <Card
         className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
         imageHeight="h-80"
+        post={travelPosts[0]}
       />
       <Card
         className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
         imageHeight="h-80"
+        post={travelPosts[1]}
       />
       <Card
         className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
         imageHeight="h-80"
+        post={travelPosts[2]}
       />
     </div>
     <Card
       className="items-center justify-between gap-3 mb-5 bg-wh-500 sm:flex mt-7"
       imageHeight="h-80"
+      post={travelPosts[3]}
     />
   </section>;
 }
