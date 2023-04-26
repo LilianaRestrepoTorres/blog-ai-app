@@ -10,8 +10,8 @@ type Props = {
   isDark?: boolean;
 };
 
-function SocialLinks({isDark = false}: Props) {
-  return <div className="flex justify-between items-center gap-7">
+const SocialLinks = ({isDark = false}: Props) => {
+  return <div className="flex items-center justify-between gap-7">
     <a href="https://twitter.com" target="_blank" rel="noreferrer">
       <Image 
         className={`${isDark ? "brightness-0" : ""} hover:opacity-50"`}
