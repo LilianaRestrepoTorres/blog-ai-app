@@ -18,23 +18,23 @@ const Travel = ({travelPosts}: Props) => {
 
     <div className="justify-between gap-8 sm:flex">
       <Card
-        className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
+        className="mt-5 basis-1/3 sm:mt-0"
         imageHeight="h-80"
         post={travelPosts[0]}
       />
       <Card
-        className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
+        className="mt-5 basis-1/3 sm:mt-0"
         imageHeight="h-80"
         post={travelPosts[1]}
       />
       <Card
-        className="mt-5 basis-1/3 bg-wh-500 sm:mt-0"
+        className="mt-5 basis-1/3 sm:mt-0"
         imageHeight="h-80"
         post={travelPosts[2]}
       />
     </div>
     <Card
-      className="items-center justify-between gap-3 mb-5 bg-wh-500 sm:flex mt-7"
+      className="items-center justify-between gap-3 mb-5 sm:flex mt-7"
       imageHeight="h-80"
       post={travelPosts[3]}
     />

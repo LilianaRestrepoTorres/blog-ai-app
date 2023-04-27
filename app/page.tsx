@@ -11,7 +11,17 @@ export const revalidate = 60;
 
 const getPosts = async () => {
   const posts = await prisma.post.findMany();
-  return posts;
+
+  const formattedPosts = await Promise.all(
+    posts.map(async (post: Post) =>{
+      const imageModule = require(`../public${post?.image}`);
+      return {
+        ...post,
+        image: imageModule.default,
+      }
+    })
+  )
+  return formattedPosts;
 }
 
 export default async function Home() {
