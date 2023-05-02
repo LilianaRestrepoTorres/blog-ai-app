@@ -39,10 +39,10 @@ const Sidebar = (props: Props) => {
         />
       </div>
       <h4 className="px-5 py-3 font-bold text-center text-wh-500">
-        Liliana Restrepo
+        Sam Darling
       </h4>
       <p className='text-sm text-center text-wh-500'>
-        Writer and Sofware Engineer
+        Senior NewYork Times Writer
       </p>
     </section>
   )
