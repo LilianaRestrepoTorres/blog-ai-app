@@ -75,15 +75,21 @@ const Content = ({ post }: Props) => {
         }),
       }
     );
-    const data = await response.json();
 
     handleIsEditable(false);
     setTempTitle("");
     setTempContent("");
 
-    setTitle(data.title);
-    setContent(data.content);
-    editor?.commands.setContent(data.content);
+    if(response.ok){
+      const data = await response.json();
+      setTitle(data.title);
+      setContent(data.content);
+      editor?.commands.setContent(data.content);
+    } else {
+      setTitle(title);
+      setContent(content);
+      editor?.commands.setContent(content);
+    }
   };
 
   return (

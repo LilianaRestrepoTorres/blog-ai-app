@@ -11,7 +11,7 @@ export async function PATCH(request: Request, { params }: Params) {
       where: { id: id },
       data: { title, content },
     });
-    console.log('post', post)
+    // NextResponse.json throws an error in dev environment
     return NextResponse.json(post, { status: 200 });
   } catch (error) {
     console.error("request error", error);
