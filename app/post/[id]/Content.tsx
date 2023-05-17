@@ -40,7 +40,6 @@ const Content = ({ post }: Props) => {
   const handleOnChangeContent = ({editor}: any) =>{
     if(!(editor as Editor).isEmpty) setContentError("");
     setContent((editor as Editor).getHTML());
-
   }
 
   const editor = useEditor({
@@ -119,6 +118,7 @@ const Content = ({ post }: Props) => {
                 onChange={handleOnChangeTitle}
                 value={title}
               />
+              {titleError && <p className="mt-1 text-primary-500">{titleError}</p> }
             </div>
           ) : (
             <h3 className="mt-3 text-3xl font-bold">{title}</h3>
