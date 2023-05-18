@@ -13,10 +13,9 @@ This project showcases my skills in building a complete Next.js 13 application f
 ## Deployed Project 🚀
 The AI Blog Application is deployed and can be accessed at: [Future TrendAI Blog](https://blog-ai-app-delta.vercel.app/)
 
-You can experience the live application and interact with the AI-generated blog content right away!
+https://github.com/LilianaRestrepoTorres/blog-ai-app/assets/17114826/4a90a42b-c7c1-4e85-a52c-e0ff16f5acd8
 
-https://github.com/LilianaRestrepoTorres/blog-ai-app/assets/17114826/8ce3aab9-964c-4c37-876d-f7581525c974
-
+_**Important Notice:** Due to overwhelming interest and a high volume of requests from visitors, the interactive features of the AI Blog Application has been temporarily disabled. We have reached the limit of the OpenAI API usage for content generation. However, we are actively working and expect to have them reestablished soon._
 
 ## Key Features
 - **AI Content Generation:** Harnessing the power of the OpenAI API, the blog content is generated using advanced artificial intelligence algorithms, providing unique and engaging articles.
