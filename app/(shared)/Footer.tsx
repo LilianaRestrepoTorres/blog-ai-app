@@ -7,24 +7,24 @@ const Footer = (props: Props) => {
     <footer className="px-10 py-10 bg-wh-900 text-wh-50">
       <div className="justify-between gap-16 mx-auto sm:flex">
         <div className="mt-16 basis-1/2 sm:mt-0">
-          <h4 className="font-bold">BLOG OF THE FUTURE</h4>
+          <h4 className="font-bold">Future TrendAI Blog</h4>
           <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
+          Latest trends and AI-generated posts.
+          Stay informed and inspired with real-time insights powered by OpenAI API.
+          Explore the fusion of human expertise and artificial intelligence.
           </p>
-          <p>© Blog of the Future All Rights Reserved.</p>
+          <p>© Future Trend AI Blog - All Rights Reserved.</p>
         </div>
         <div className="mt-16 basis-1/4 sm:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Some random link</p>
-          <p>Ullamcorper vivamus</p>
+          <p className="my-5">AI-generated posts</p>
+          <p className="my-5">Latest trends</p>
+          <p>Technology breakthrough</p>
         </div>
         <div className="mt-16 basis-1/4 sm:mt-0">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Tempus metus mattis risus volutpat egestas.</p>
-          <p>(111)222-4444</p>
+          <p className="my-5">linkedin.com/in/lilianarestrepotorres</p>
+          <p>github.com/LilianaRestrepoTorres</p>
         </div>
       </div>
     </footer>

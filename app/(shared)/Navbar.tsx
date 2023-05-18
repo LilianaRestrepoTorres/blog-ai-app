@@ -22,14 +22,14 @@ const Navbar = (props: Props) => {
           <p>Sign In</p>
         </div>
       </nav>
-      <div className="flex justify-between gap-8 mx-10 mt-5 mb-4">
-        <div className="basis-2/3 md:mt-3">
-          <h1 className="text-3xl font-bold md:text-5xl">BLOG OF THE FUTURE</h1>
+      <div className="flex items-center justify-center gap-8 mx-10 mt-5 mb-4">
+        <div className="basis-3/3 md:mt-3">
+          <h1 className="text-3xl font-bold md:text-5xl">Future TrendAI Blog</h1>
           <p className="mt-3 text-sm">
-            Blog dedicated towards AI and generation and job automation.
+            Stay informed and inspired with real-time insights.
           </p>
         </div>
-        <div className="relative w-auto h-32 basis-full bg-wh-500">
+        {/* <div className="relative w-auto h-32 basis-full bg-wh-500">
           <Image
             fill
             alt="ad-1"
@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
                 33vw"
             style={{objectFit: "cover"}}
           />
-        </div>
+        </div> */}
       </div>
       <hr className="mx-10 border-1" />
     </header>

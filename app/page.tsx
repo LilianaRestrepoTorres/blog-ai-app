@@ -46,6 +46,7 @@ export default async function Home() {
       }
     })
 
+
     return [trendingPosts, techPosts, travelPosts, otherPosts];
   }
 

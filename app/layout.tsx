@@ -6,7 +6,7 @@ import Footer from 'app/(shared)/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Blog AI App',
+  title: 'Future Trend AI Blog',
   description: 'Blog built in Next JS that uses AI',
 }
 
